@@ -46,13 +46,5 @@ fun ProfileHeader(user: GithubUser) {
         Spacer(modifier = Modifier.height(24.dp))
 
         HorizontalDivider(modifier = Modifier.padding(horizontal = 16.dp))
-
-        /*Text(
-            text = "Repositories (${repos.size})",
-            style = MaterialTheme.typography.titleLarge,
-            modifier = Modifier
-                .align(Alignment.Start)
-                .padding(start = 16.dp, top = 16.dp, bottom = 8.dp)
-        ) */
     }
 }
