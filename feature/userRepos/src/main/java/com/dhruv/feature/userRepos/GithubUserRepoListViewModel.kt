@@ -2,7 +2,6 @@ package com.dhruv.feature.userRepos
 
 import androidx.lifecycle.ViewModel
 import com.dhruv.core.common.utils.ServerResponse
-import com.dhruv.core.domain.model.GithubRepo
 import com.dhruv.core.domain.usecase.GetUserReposUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

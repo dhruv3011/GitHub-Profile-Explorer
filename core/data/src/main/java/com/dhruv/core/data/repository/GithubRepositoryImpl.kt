@@ -1,7 +1,6 @@
 package com.dhruv.core.data.repository
 
 import com.dhruv.core.common.utils.DispatcherProvider
-import com.dhruv.core.common.utils.ServerResponse
 import com.dhruv.core.data.mapper.toDomain
 import com.dhruv.core.domain.model.GithubRepo
 import com.dhruv.core.domain.model.GithubUser

@@ -1,6 +1,5 @@
 package com.dhruv.core.ui.components
 
-import android.graphics.drawable.Icon
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
