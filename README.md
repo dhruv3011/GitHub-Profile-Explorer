@@ -39,5 +39,5 @@ This repo demonstrates:
 
 ## Prerequisites
 
-- Android Studio Ladybug or newer
+- Android Studio
 - JDK 17+
