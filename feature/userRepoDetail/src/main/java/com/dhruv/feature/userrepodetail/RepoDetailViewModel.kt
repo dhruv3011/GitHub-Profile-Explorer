@@ -39,7 +39,7 @@ class RepoDetailViewModel @Inject constructor(
             ) { repoDetail: ServerResponse<GithubRepo>, allRepoList: ServerResponse<List<GithubRepo>> ->
                 when {
                     repoDetail is ServerResponse.Success && allRepoList is ServerResponse.Success -> {
-                        val repoData = repoDetail.data!!
+                        val repoData = repoDetail.data ?: return@combine RepoDetailUiState.Error("No Data found")
                         val totalForks = allRepoList.data?.sumOf { it.forksCount } ?: 0
 
                         RepoDetailUiState.Success(
